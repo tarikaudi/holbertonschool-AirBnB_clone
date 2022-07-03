@@ -13,7 +13,6 @@ from models.state import State
 from models.review import Review
 
 
-
 class HBNBCommand(cmd.Cmd):
     """Class that we use to generate the console"""
 
