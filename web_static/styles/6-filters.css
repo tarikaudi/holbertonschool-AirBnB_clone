@@ -1,0 +1,85 @@
+.filters {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.locations {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations:hover .locations_hover {
+    display: block;
+}
+
+.amenities {
+    width: 25%;
+    height: 100%;
+}
+
+.amenities:hover .amenities_hover {
+    display: block;
+}
+
+.amenities h3, .locations h3 {
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.amenities h4, .locations h4 {
+    padding-left: 40px;
+    margin-top: -14px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.popover {
+    list-style: none;
+}
+
+.locations_hover, .amenities_hover {
+    display: none;
+    position: relative;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: -2px;
+    margin-left: -1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 9;
+}
+
+.locations_hover h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: -16px;
+    margin-bottom: -5px;
+}
+
+li {
+    margin: 8px;
+}
